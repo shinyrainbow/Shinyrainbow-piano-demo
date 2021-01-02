@@ -1,0 +1,49 @@
+.sheet-music-page{
+  max-width: 760px;
+  margin: auto;
+  .breadcrumb{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .content{
+    display: flex;
+    .sheet-image{
+      padding-right: 40px;
+    }
+    .sheet-detail{
+      .song-name{
+        font-size: 25px;
+        
+      }
+      .song-writer{
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      .song-price{
+        font-size:20px;
+        margin-bottom: 20px;
+      }
+      .quantity{
+        font-size: 25px;
+      }
+      .quantity-box{
+        border: 1px #CCC solid;
+        // font-size: 25px;
+        color: #CCC;
+        margin-bottom: 20px;
+        padding: 3px;
+        width: 25px;
+      }
+      .add-to-cart{
+        border: 1px #333 solid;
+        margin-bottom: 20px;
+      }
+      .description{
+        font-size: 24px;
+      }
+      .info{
+        font-size: 15px;
+      }
+    }
+  }
+}
